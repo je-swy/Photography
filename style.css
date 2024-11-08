@@ -336,16 +336,23 @@ nav {
 }
 
 .instagram__flex{
-    display: flex;
     margin-top: 2rem;
     width: max-content;
+    display: flex;
     align-items: center;
     gap: 1rem;
+
     animation: scroll 45s linear infinite;
 }
 
 .instagram__flex img{
     max-width: 135px;
+}
+
+@keyframes scroll {
+    to{
+        transform: translateX(calc(-50% - 0.5rem));
+    }
 }
 
 .footer__container{
@@ -420,11 +427,7 @@ nav {
     color: var(--extra-light);
 }
 
-@keyframes scroll {
-    to{
-        transform: translateX(calc(-50% - .5rem));
-    }
-}
+
 
 @media (width > 540px) {
     .portfolio__grid {
