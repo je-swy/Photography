@@ -204,7 +204,7 @@ nav {
 }
 
 .portfolio__card:nth-child(3)::after {
-    content: "Fashions";
+    content: "Art";
 }
 
 .portfolio__content {
