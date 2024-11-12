@@ -21,16 +21,16 @@
     padding: 4rem 1rem;
 }
 
-header .section__header {
+.section__header {
     margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: 400;
     font-family: var(--header-font);
-    color: var(--extra-light);
+    color: var(--text-dark);
     text-align: center;
 }
 
-header .section__description {
+.section__description {
     color: var(--white);
     line-height: 1.7rem;
     text-align: center;
@@ -81,12 +81,14 @@ body {
     background-repeat: no-repeat;
 }
 
+header .section__header {
+    color: var(--extra-light);
+}
 
 .header .about__container{
     background-color: rgba(23, 23, 23, .3);
     border-radius: 15px;
     margin: 3% auto;
-
 }
 
 nav {
