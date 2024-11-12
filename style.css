@@ -18,7 +18,7 @@
 .section__container {
     max-width: var(--max-width);
     margin: auto;
-    padding: 5rem 1rem;
+    padding: 4rem 1rem;
 }
 
 .section__header {
@@ -26,12 +26,12 @@
     font-size: 2rem;
     font-weight: 400;
     font-family: var(--header-font);
-    color: var(--text-dark);
+    color: var(--extra-light);
     text-align: center;
 }
 
 .section__description {
-    color: var(--extra-light);
+    color: var(--white);
     line-height: 1.7rem;
     text-align: center;
 }
@@ -79,6 +79,14 @@ body {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+
+.header .about__container{
+    background-color: rgba(23, 23, 23, .3);
+    border-radius: 15px;
+    margin: 3% auto;
+
 }
 
 nav {
@@ -430,6 +438,12 @@ nav {
 
 
 @media (width > 540px) {
+    .header .about__container{
+        margin: 61px auto;
+        background-color: transparent;
+        width: 85%;
+    }
+
     .portfolio__grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -444,6 +458,14 @@ nav {
 }
 
 @media (width > 768px) {
+
+    .header .about__container{
+        background-color: rgba(23, 23, 23, .3);
+        border-radius: 15px;
+        margin: 3% auto;
+        width: auto;
+    }
+
     .header {
         min-height: 650px;
     }
