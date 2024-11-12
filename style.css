@@ -21,7 +21,7 @@
     padding: 4rem 1rem;
 }
 
-.section__header {
+header .section__header {
     margin-bottom: 1rem;
     font-size: 2rem;
     font-weight: 400;
@@ -30,7 +30,7 @@
     text-align: center;
 }
 
-.section__description {
+header .section__description {
     color: var(--white);
     line-height: 1.7rem;
     text-align: center;
