@@ -237,7 +237,7 @@ nav {
 }
 
 .service {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("assets/services-bcg.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("assets/services-bcg.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
